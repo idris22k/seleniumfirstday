@@ -43,7 +43,7 @@ static
 		
 		
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\IQBAL\\eclipse-workspace\\seleniumfirstday\\drivers\\chromedriver.exe");
-	
+	System.out.println("i am added my code at first time");
 	WebDriver driver = new ChromeDriver();
 	driver.get("https://www.amazon.in");
 	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
